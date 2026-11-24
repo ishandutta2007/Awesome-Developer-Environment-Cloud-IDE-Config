@@ -31,168 +31,98 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 ## Table of Contents
-
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Support & Share](#support--share)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global Cloud Development Environment (CDE) and Cloud IDE sector is estimated at **$2.5B–$4.5B** within the broader **$12.5B+** software development tooling market, expanding at a CAGR of ~8–12% driven by remote team onboarding, security governance, and AI agent execution sandboxes. The market exhibits a **bifurcated, moderately fragmented structure**: top-tier cloud hyperscalers (Microsoft GitHub, Amazon AWS, Google) command concentrated enterprise developer distribution, while an active, fragmented ecosystem of independent orchestrators and AI-first sandbox startups (Replit, Daytona, Coder, StackBlitz) aggressively compete on ephemeral boot times, browser WebContainers, and zero-trust workspace security.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[GitHub Codespaces](https://github.com)**  
-
-  Managed cloud development environments tightly integrated with GitHub repositories, powered by `devcontainer.json` configurations, repository prebuilds, and browser/desktop VS Code.
-
-
-
-- **[Gitpod (Ona)](https://gitpod.io)**  
-
-  Cloud Development Environment (CDE) platform automating ephemeral, zero-drift workspaces and AI coding agent environments directly from Git branches and declarative configs.
-
-
-
-- **[Coder Enterprise / Cloud](https://coder.com)**  
-
-  Managed and enterprise-supported Terraform-driven CDE platform providing centralized governance, GPU workspace templates, and air-gapped cloud deployments.
-
-
-
-- **[Daytona Cloud](https://daytona.io)**  
-
-  Managed elastic development environment and sandbox cloud spinning up standardized workspaces and AI agent sandboxes in sub-second cold-start times.
-
-
-
-- **[DevZero](https://devzero.io)**  
-
-  Cloud developer environment platform delivering pre-warmed, reproducible remote workspaces with automated database/service dependencies and IDE integration.
-
-
-
-- **[StackBlitz](https://stackblitz.com)**  
-
-  Instant browser-native web IDE powered by WebContainers that executes Node.js, Vite, Next.js, and full-stack environments directly in the browser sandbox.
-
-
-
-- **[Replit](https://replit.com)**  
-
-  Cloud workspace and instant deployment platform featuring Nix-configured environments, built-in PostgreSQL/object storage, real-time multiplayer, and Replit Agent.
-
-
-
-- **[Codeanywhere](https://codeanywhere.com)**  
-
-  Cloud IDE and container workspace platform supporting `devcontainer.json` provisioning, SSH/SFTP access, and browser-hosted VS Code editors.
-
-
-
-- **[AWS Cloud9 (Legacy / AWS IDE Ecosystem)](https://amazon.com)**  
-
-  Browser-based cloud IDE by Amazon Web Services offering pre-authenticated AWS CLI terminals, collaborative pair editing, and direct EC2/Lambda integration.
-
-
-
-- **[Firebase Studio (formerly Project IDX by Google)](https://google.com)**  
-
-  Google's cloud-based agentic development workspace driven by declarative `.idx/dev.nix` configurations, built-in Android/iOS/web emulators, and Gemini assistance.
-
-
-
-
+| Platform | Valuation / Company Scale | Starting Pricing | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[AWS Cloud9](https://aws.amazon.com/cloud9/)** | **~$2.1T+ Market Cap** (Amazon / AWS Cloud: $100B+ ARR) | Pay-as-you-go for underlying AWS compute (e.g., ~$0.0104/hr for `t3.micro` EC2) | **750 hours/month** of `t2.micro` or `t3.micro` EC2 instances and **30 GB** EBS storage under the AWS Free Tier (first 12 months) | Cloud-based IDE running directly on EC2 instances with pre-authenticated AWS CLI access, collaborative code editing, and integrated terminal. *(Legacy service for existing AWS accounts).* |
+| **[Firebase Studio](https://firebase.google.com)** | **~$2.0T+ Market Cap** (Alphabet / Google) | Included with Google Cloud Platform resource usage | **3 free workspaces** permanently included with Google accounts (up to 10–30 workspaces for Google Developer Program members) | Google's cloud-based developer workspace (formerly Project IDX) built on `.idx/dev.nix` declarative Nix configurations, full-stack emulators, and Gemini code assistance. *(Sunsetting March 2027).* |
+| **[GitHub Codespaces](https://github.com/features/codespaces)** | **~$3.0T+ Market Cap** (Microsoft / GitHub: $1B+ ARR) | **$0.18/hour** (2-core compute) + **$0.07/GB-month** for storage beyond monthly free allowance | **60 hours/month** (120 core hours) of 2-core compute and **15 GB** storage free forever for all personal GitHub accounts (180 core hours & 20 GB on GitHub Pro) | Cloud-hosted development environments deeply integrated with GitHub repositories, containerized with `devcontainer.json`, supporting browser and desktop VS Code. |
+| **[Replit](https://replit.com)** | **$9.0B Valuation** (Raised $400M Series D in 2026; $900M+ total funding) | **$20/month** (Core plan, or $18/month billed annually) | **Unlimited public Repls** with basic compute (0.5 vCPU, 512 MB RAM) free forever; includes initial AI agent evaluation credits | Collaborative cloud IDE and instant hosting platform driven by Nix environments, real-time multiplayer editing, and autonomous Replit Agent workflows. |
+| **[Daytona Cloud](https://daytona.io)** | **$1.0B Valuation** (Raised $60M Series B in 2026; $91M total funding) | **$0.02/core-hour** (Pay-as-you-go elastic sandbox billing) | **$200 in free compute credits** upon sign-up (up to $50,000 for qualifying startups) for ephemeral workspaces | Elastic development environment and sandbox runtime provisioning secure standardized workspaces and AI code-execution sandboxes with sub-second cold starts. |
+| **[StackBlitz](https://stackblitz.com)** | **$700M Valuation** (Raised $135M+ total capital across Series A & B) | **$25/month** (Pro plan, or $18/month billed annually) | **Unlimited public projects** and unlimited browser execution sessions free forever powered by WebContainers | Instant web-native IDE utilizing WebContainers to run Node.js, Vite, Next.js, and package runtimes directly inside browser sandboxes without remote VM lag. |
+| **[Coder Enterprise](https://coder.com)** | **$500M–$1.0B Valuation** (Raised $90M Series C; $175M total funding) | **$35/user/month** (Premium tier starting rate, billed annually) | **Free forever Community Edition** (self-hosted, unlimited workspaces and single-organization users with community support) | Self-hosted and enterprise-managed CDE platform provisioning developer workspaces via Terraform onto private VPCs, Kubernetes, and hybrid clouds. |
+| **[Gitpod (Ona)](https://gitpod.io)** | **~$150M–$250M Valuation** (Raised $41M total funding across Seed & Series A) | **$9/user/month** (Pay-as-you-go / Team plan) | **50 hours/month** of workspace runtime and standard compute free forever on public and connected repositories | Ephemeral Cloud Development Environment (CDE) platform standardizing zero-drift developer workspaces and AI agent sandboxes from Git branches. |
+| **[DevZero](https://devzero.io)** | **~$80M–$120M Valuation** (Raised $26M total funding; $21M Series A) | **$39.95/user/month** (Pro plan) | **2 active workspaces**, 2 users, and monitoring for unlimited Kubernetes clusters free forever on the Starter tier | Developer environment platform delivering pre-warmed, reproducible remote workspaces with automated multi-tier microservice dependencies and local IDE sync. |
+| **[Codeanywhere](https://codeanywhere.com)** | **~$15M–$30M Valuation** (~$330K ARR; raised $600K Seed/Series A) | **$12/month** (Basic plan, or $10/month billed annually) | **7-day full-access free trial** (with 1 container, 2 GB RAM, and 10 GB disk space); no permanent free container tier | Web-based cloud IDE and container workspace manager supporting `devcontainer.json` provisioning, SSH/SFTP terminal access, and browser-hosted VS Code. |
 
 ## Open-Source GitHub Projects
 
+Curated list of open-source Cloud Development Environment (CDE) orchestrators, container workspace runtimes, runtime managers, and declarative Nix configurations—ranked by GitHub stars:
 
+- **[Code-Server](https://github.com/coder/code-server)** [![GitHub stars](https://img.shields.io/github/stars/coder/code-server?style=social&color=white)](https://github.com/coder/code-server/stargazers)  
+  Runs VS Code on any remote Linux machine, cloud VM, or container and serves it through any web browser with full terminal and extension marketplace support.
 
-- **[fzn0x/idx](https://github.com)**  
+- **[Daytona](https://github.com/daytonaio/daytona)** [![GitHub stars](https://img.shields.io/github/stars/daytonaio/daytona?style=social&color=white)](https://github.com/daytonaio/daytona/stargazers)  
+  Open-source Development Environment Manager and elastic workspace runtime that sets up fully configured development environments with a single command across local and cloud providers.
 
-  Open-source developer environment and Project IDX-inspired configuration toolkit engineered to streamline reproducible Nix/cloud workspace setups and developer tooling.
+- **[mise-en-place](https://github.com/jdx/mise)** [![GitHub stars](https://img.shields.io/github/stars/jdx/mise?style=social&color=white)](https://github.com/jdx/mise/stargazers)  
+  High-performance polyglot runtime tool manager, environment variable orchestrator, and task runner (alternative to asdf and direnv) configured via `mise.toml`.
 
+- **[Nixpkgs](https://github.com/NixOS/nixpkgs)** [![GitHub stars](https://img.shields.io/github/stars/NixOS/nixpkgs?style=social&color=white)](https://github.com/NixOS/nixpkgs/stargazers)  
+  The world's largest repository of reproducible software packages and declarative operating system configurations powering modern reproducible developer environments.
 
+- **[asdf](https://github.com/asdf-vm/asdf)** [![GitHub stars](https://img.shields.io/github/stars/asdf-vm/asdf?style=social&color=white)](https://github.com/asdf-vm/asdf/stargazers)  
+  Extendable CLI runtime version manager with support for Node.js, Python, Ruby, Elixir, Go, and hundreds of language runtimes via a unified `.tool-versions` config.
 
-- **[Coder (`coder/coder`)](https://github.com)**  
+- **[Chezmoi](https://github.com/twpayne/chezmoi)** [![GitHub stars](https://img.shields.io/github/stars/twpayne/chezmoi?style=social&color=white)](https://github.com/twpayne/chezmoi/stargazers)  
+  Manage your personal dotfiles, shell configs, secret managers, and SSH keys securely across multiple local, remote, and ephemeral cloud development machines.
 
-  Flagship self-hosted open-source Cloud Development Environment (CDE) platform provisioning reproducible remote workspaces via Terraform across Docker, Kubernetes, AWS, GCP, and Azure.
+- **[Eclipse Theia](https://github.com/eclipse-theia/theia)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-theia/theia?style=social&color=white)](https://github.com/eclipse-theia/theia/stargazers)  
+  Extensible open-source platform and framework for building rich web and desktop IDE-like applications with TypeScript and VS Code extension protocol compatibility.
 
+- **[Coder](https://github.com/coder/coder)** [![GitHub stars](https://img.shields.io/github/stars/coder/coder?style=social&color=white)](https://github.com/coder/coder/stargazers)  
+  Self-hosted Cloud Development Environment (CDE) engine that provisions developer workspaces on Linux VMs, Kubernetes, Docker, or cloud hyperscalers using Terraform.
 
+- **[direnv](https://github.com/direnv/direnv)** [![GitHub stars](https://img.shields.io/github/stars/direnv/direnv?style=social&color=white)](https://github.com/direnv/direnv/stargazers)  
+  Lightweight shell extension that automatically loads and unloads directory-scoped environment variables, secrets, and Nix/Devbox environments as you change folders.
 
-- **[Daytona (`daytonaio/daytona`)](https://github.com)**  
+- **[DevPod](https://github.com/loft-sh/devpod)** [![GitHub stars](https://img.shields.io/github/stars/loft-sh/devpod?style=social&color=white)](https://github.com/loft-sh/devpod/stargazers)  
+  Client-only open-source alternative to GitHub Codespaces; turns any repository containing a `devcontainer.json` into a reproducible remote environment over SSH, Docker, or Kubernetes without a backend server.
 
-  Open-source Development Environment Manager and elastic sandbox runtime enabling single-command creation of standardized local, remote, or cloud workspaces.
+- **[Devbox](https://github.com/jetify-com/devbox)** [![GitHub stars](https://img.shields.io/github/stars/jetify-com/devbox?style=social&color=white)](https://github.com/jetify-com/devbox/stargazers)  
+  Instant, isolated development environments powered by Nix without requiring you to learn the Nix language; configured declaratively via clean `devbox.json` files.
 
+- **[Podman Desktop](https://github.com/containers/podman-desktop)** [![GitHub stars](https://img.shields.io/github/stars/containers/podman-desktop?style=social&color=white)](https://github.com/containers/podman-desktop/stargazers)  
+  Open-source graphical desktop interface for managing containers, Pods, Kubernetes environments, and DevContainers with rootless security.
 
+- **[Dotbot](https://github.com/anishathalye/dotbot)** [![GitHub stars](https://img.shields.io/github/stars/anishathalye/dotbot?style=social&color=white)](https://github.com/anishathalye/dotbot/stargazers)  
+  Lightweight, bootstrap-friendly dotfiles management tool designed to symlink configuration files seamlessly inside fresh VMs, cloud containers, and DevContainers.
 
-- **[DevPod (`loft-sh/devpod`)](https://github.com)**  
+- **[devenv](https://github.com/cachix/devenv)** [![GitHub stars](https://img.shields.io/github/stars/cachix/devenv?style=social&color=white)](https://github.com/cachix/devenv/stargazers)  
+  Fast, declarative, reproducible developer environments builder powered by Nix—orchestrating packages, background services (Postgres, Redis), and process managers in `devenv.nix`.
 
-  Client-only open-source tool ("Codespaces but open-source") that turns any `devcontainer.json` repository into a reproducible remote workspace over SSH, Docker, or Kubernetes without a central server.
+- **[Eclipse Che](https://github.com/eclipse-che/che)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-che/che?style=social&color=white)](https://github.com/eclipse-che/che/stargazers)  
+  Kubernetes-native cloud development workspace platform providing multi-tenant `devfile.yaml` workspace management, in-browser IDEs, and enterprise SSO integration.
 
+- **[OpenVSCode Server](https://github.com/gitpod-io/openvscode-server)** [![GitHub stars](https://img.shields.io/github/stars/gitpod-io/openvscode-server?style=social&color=white)](https://github.com/gitpod-io/openvscode-server/stargazers)  
+  Upstream distribution maintained by Gitpod that runs the upstream Microsoft VS Code web client directly on a remote server accessible through any standard web browser.
 
+- **[Dev Containers Specification](https://github.com/devcontainers/spec)** [![GitHub stars](https://img.shields.io/github/stars/devcontainers/spec?style=social&color=white)](https://github.com/devcontainers/spec/stargazers)  
+  The open specification and schema behind `devcontainer.json`, standardizing how development containers, features, port forwardings, and lifecycle hooks are declared.
 
-- **[Dev Containers CLI & Specification (`devcontainers/cli`)](https://github.com)**  
+- **[VS Code Dev Containers Templates](https://github.com/microsoft/vscode-dev-containers)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/vscode-dev-containers?style=social&color=white)](https://github.com/microsoft/vscode-dev-containers/stargazers)  
+  Microsoft repository of reference community templates, Dockerfiles, and DevContainer configuration definitions for common stacks and languages.
 
-  Official open-source reference CLI and open specification (`devcontainer.json`) for defining reproducible containerized development environments, features, and lifecycle hooks.
+- **[Flox](https://github.com/flox/flox)** [![GitHub stars](https://img.shields.io/github/stars/flox/flox?style=social&color=white)](https://github.com/flox/flox/stargazers)  
+  Cross-platform developer environment framework based on Nix that provides portable, reproducible environments that follow your code across local machines, CI, and production.
 
+- **[Dev Containers CLI](https://github.com/devcontainers/cli)** [![GitHub stars](https://img.shields.io/github/stars/devcontainers/cli?style=social&color=white)](https://github.com/devcontainers/cli/stargazers)  
+  Reference command-line interface implementation for parsing, building, and executing workspaces defined by `devcontainer.json`.
 
-
-- **[Eclipse Che (`eclipse-che/che`)](https://github.com)**  
-
-  Kubernetes-native open-source developer workspace server and cloud IDE platform providing multi-user `devfile.yaml` environments, browser editors, and enterprise SSO.
-
-
-
-- **[Code-Server (`coder/code-server`)](https://github.com)**  
-
-  Popular open-source server allowing you to run VS Code on any remote Linux/macOS/Windows machine or cloud VM and access it securely through any web browser.
-
-
-
-- **[OpenVSCode Server (`gitpod-io/openvscode-server`)](https://github.com)**  
-
-  Upstream open-source server distribution maintained by Gitpod that runs the latest VS Code web client directly on remote machines with minimal patching.
-
-
-
-- **[devenv (`cachix/devenv`)](https://github.com)**  
-
-  Fast, declarative, reproducible open-source developer environment builder powered by Nix—managing packages, background services (Postgres, Redis), processes, and pre-commit hooks in `devenv.nix`.
-
-
-
-- **[Devbox (`jetify-com/devbox`)](https://github.com)**  
-
-  Portable, isolated open-source shell and environment manager powered by Nix without requiring you to learn the Nix language, configured via simple `devbox.json` files.
-
-
-
-- **[Flox (`flox/flox`)](https://github.com)**  
-
-  Open-source cross-platform developer environment manager built on Nix enabling teams to create, share, and activate identical reproducible environments locally, in CI, and in containers.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[mise-en-place (`jdx/mise`)](https://github.com)** and **[asdf (`asdf-vm/asdf`)](https://github.com)** for fast, polyglot runtime version managers (Node, Python, Go, Rust, Java) and project-scoped environment variables (`mise.toml`).
-
-- **[direnv (`direnv/direnv`)](https://github.com)** for an essential open-source shell extension that automatically loads and unloads project-specific environment variables and Nix/Devbox shells upon entering directories.
-
-- **[Eclipse Theia (`eclipse-theia/theia`)](https://github.com)** for an extensible open-source cloud and desktop IDE framework built in TypeScript supporting VS Code extensions and custom branding.
-
-- **[Chezmoi (`twpayne/chezmoi`)](https://github.com)** and **[Dotbot (`anishathalye/dotbot`)](https://github.com)** for managing and bootstrapping personal dotfiles, SSH keys, and shell configs seamlessly inside fresh Cloud IDEs and DevContainers.
-
-- **[Nixpkgs (`NixOS/nixpkgs`)](https://github.com)** for the world's largest open-source repository of reproducible declarative packages powering Project IDX, Replit, devenv, Devbox, and Flox.
+- **[fzn0x/idx](https://github.com/fzn0x/idx)** [![GitHub stars](https://img.shields.io/github/stars/fzn0x/idx?style=social&color=white)](https://github.com/fzn0x/idx/stargazers)  
+  Open-source configuration toolkit and Nix templates inspired by Project IDX, engineered to bootstrap reproducible cloud workspace setups and developer tooling.
 
 
 
