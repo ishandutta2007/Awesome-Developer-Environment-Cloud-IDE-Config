@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Developer-Environment-Cloud-IDE-Config/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Developer-Environment-Cloud-IDE-Config?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Developer-Environment-Cloud-IDE-Config/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Developer-Environment-Cloud-IDE-Config?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Developer-Environment-Cloud-IDE-Config/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Developer-Environment-Cloud-IDE-Config?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Developer-Environment-Cloud-IDE-Config/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Developer-Environment-Cloud-IDE-Config/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
@@ -61,69 +61,69 @@ The global Cloud Development Environment (CDE) and Cloud IDE sector is estimated
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated list of open-source Cloud Development Environment (CDE) orchestrators, container workspace runtimes, runtime managers, and declarative Nix configurations—ranked by GitHub stars:
+Curated list of open-source Cloud Development Environment (CDE) orchestrators, container workspace runtimes, runtime managers, and declarative Nix configurations—ranked by GitHub_Stars:
 
-- **[Code-Server](https://github.com/coder/code-server)** [![GitHub stars](https://img.shields.io/github/stars/coder/code-server?style=social&color=white)](https://github.com/coder/code-server/stargazers)  
+- **[Code-Server](https://github.com/coder/code-server)** [![GitHub_Stars](https://img.shields.io/github/stars/coder/code-server?style=social&color=white)](https://github.com/coder/code-server/stargazers)  
   🖥️ Runs VS Code on any remote Linux machine, cloud VM, or container and serves it through any web browser with full terminal and extension marketplace support.
 
-- **[Daytona](https://github.com/daytonaio/daytona)** [![GitHub stars](https://img.shields.io/github/stars/daytonaio/daytona?style=social&color=white)](https://github.com/daytonaio/daytona/stargazers)  
+- **[Daytona](https://github.com/daytonaio/daytona)** [![GitHub_Stars](https://img.shields.io/github/stars/daytonaio/daytona?style=social&color=white)](https://github.com/daytonaio/daytona/stargazers)  
   🚀 Open-source Development Environment Manager and elastic workspace runtime that sets up fully configured development environments with a single command across local and cloud providers.
 
-- **[mise-en-place](https://github.com/jdx/mise)** [![GitHub stars](https://img.shields.io/github/stars/jdx/mise?style=social&color=white)](https://github.com/jdx/mise/stargazers)  
+- **[mise-en-place](https://github.com/jdx/mise)** [![GitHub_Stars](https://img.shields.io/github/stars/jdx/mise?style=social&color=white)](https://github.com/jdx/mise/stargazers)  
   🛠️ High-performance polyglot runtime tool manager, environment variable orchestrator, and task runner (alternative to asdf and direnv) configured via `mise.toml`.
 
-- **[Nixpkgs](https://github.com/NixOS/nixpkgs)** [![GitHub stars](https://img.shields.io/github/stars/NixOS/nixpkgs?style=social&color=white)](https://github.com/NixOS/nixpkgs/stargazers)  
+- **[Nixpkgs](https://github.com/NixOS/nixpkgs)** [![GitHub_Stars](https://img.shields.io/github/stars/NixOS/nixpkgs?style=social&color=white)](https://github.com/NixOS/nixpkgs/stargazers)  
   ❄️ The world's largest repository of reproducible software packages and declarative operating system configurations powering modern reproducible developer environments.
 
-- **[asdf](https://github.com/asdf-vm/asdf)** [![GitHub stars](https://img.shields.io/github/stars/asdf-vm/asdf?style=social&color=white)](https://github.com/asdf-vm/asdf/stargazers)  
+- **[asdf](https://github.com/asdf-vm/asdf)** [![GitHub_Stars](https://img.shields.io/github/stars/asdf-vm/asdf?style=social&color=white)](https://github.com/asdf-vm/asdf/stargazers)  
   🔧 Extendable CLI runtime version manager with support for Node.js, Python, Ruby, Elixir, Go, and hundreds of language runtimes via a unified `.tool-versions` config.
 
-- **[Chezmoi](https://github.com/twpayne/chezmoi)** [![GitHub stars](https://img.shields.io/github/stars/twpayne/chezmoi?style=social&color=white)](https://github.com/twpayne/chezmoi/stargazers)  
+- **[Chezmoi](https://github.com/twpayne/chezmoi)** [![GitHub_Stars](https://img.shields.io/github/stars/twpayne/chezmoi?style=social&color=white)](https://github.com/twpayne/chezmoi/stargazers)  
   🏠 Manage your personal dotfiles, shell configs, secret managers, and SSH keys securely across multiple local, remote, and ephemeral cloud development machines.
 
-- **[Eclipse Theia](https://github.com/eclipse-theia/theia)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-theia/theia?style=social&color=white)](https://github.com/eclipse-theia/theia/stargazers)  
+- **[Eclipse Theia](https://github.com/eclipse-theia/theia)** [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-theia/theia?style=social&color=white)](https://github.com/eclipse-theia/theia/stargazers)  
   🌐 Extensible open-source platform and framework for building rich web and desktop IDE-like applications with TypeScript and VS Code extension protocol compatibility.
 
-- **[Coder](https://github.com/coder/coder)** [![GitHub stars](https://img.shields.io/github/stars/coder/coder?style=social&color=white)](https://github.com/coder/coder/stargazers)  
+- **[Coder](https://github.com/coder/coder)** [![GitHub_Stars](https://img.shields.io/github/stars/coder/coder?style=social&color=white)](https://github.com/coder/coder/stargazers)  
   🏗️ Self-hosted Cloud Development Environment (CDE) engine that provisions developer workspaces on Linux VMs, Kubernetes, Docker, or cloud hyperscalers using Terraform.
 
-- **[direnv](https://github.com/direnv/direnv)** [![GitHub stars](https://img.shields.io/github/stars/direnv/direnv?style=social&color=white)](https://github.com/direnv/direnv/stargazers)  
+- **[direnv](https://github.com/direnv/direnv)** [![GitHub_Stars](https://img.shields.io/github/stars/direnv/direnv?style=social&color=white)](https://github.com/direnv/direnv/stargazers)  
   📁 Lightweight shell extension that automatically loads and unloads directory-scoped environment variables, secrets, and Nix/Devbox environments as you change folders.
 
-- **[DevPod](https://github.com/loft-sh/devpod)** [![GitHub stars](https://img.shields.io/github/stars/loft-sh/devpod?style=social&color=white)](https://github.com/loft-sh/devpod/stargazers)  
+- **[DevPod](https://github.com/loft-sh/devpod)** [![GitHub_Stars](https://img.shields.io/github/stars/loft-sh/devpod?style=social&color=white)](https://github.com/loft-sh/devpod/stargazers)  
   📦 Client-only open-source alternative to GitHub Codespaces; turns any repository containing a `devcontainer.json` into a reproducible remote environment over SSH, Docker, or Kubernetes without a backend server.
 
-- **[Devbox](https://github.com/jetify-com/devbox)** [![GitHub stars](https://img.shields.io/github/stars/jetify-com/devbox?style=social&color=white)](https://github.com/jetify-com/devbox/stargazers)  
+- **[Devbox](https://github.com/jetify-com/devbox)** [![GitHub_Stars](https://img.shields.io/github/stars/jetify-com/devbox?style=social&color=white)](https://github.com/jetify-com/devbox/stargazers)  
   ⚡ Instant, isolated development environments powered by Nix without requiring you to learn the Nix language; configured declaratively via clean `devbox.json` files.
 
-- **[Podman Desktop](https://github.com/containers/podman-desktop)** [![GitHub stars](https://img.shields.io/github/stars/containers/podman-desktop?style=social&color=white)](https://github.com/containers/podman-desktop/stargazers)  
+- **[Podman Desktop](https://github.com/containers/podman-desktop)** [![GitHub_Stars](https://img.shields.io/github/stars/containers/podman-desktop?style=social&color=white)](https://github.com/containers/podman-desktop/stargazers)  
   🦭 Open-source graphical desktop interface for managing containers, Pods, Kubernetes environments, and DevContainers with rootless security.
 
-- **[Dotbot](https://github.com/anishathalye/dotbot)** [![GitHub stars](https://img.shields.io/github/stars/anishathalye/dotbot?style=social&color=white)](https://github.com/anishathalye/dotbot/stargazers)  
+- **[Dotbot](https://github.com/anishathalye/dotbot)** [![GitHub_Stars](https://img.shields.io/github/stars/anishathalye/dotbot?style=social&color=white)](https://github.com/anishathalye/dotbot/stargazers)  
   🤖 Lightweight, bootstrap-friendly dotfiles management tool designed to symlink configuration files seamlessly inside fresh VMs, cloud containers, and DevContainers.
 
-- **[devenv](https://github.com/cachix/devenv)** [![GitHub stars](https://img.shields.io/github/stars/cachix/devenv?style=social&color=white)](https://github.com/cachix/devenv/stargazers)  
+- **[devenv](https://github.com/cachix/devenv)** [![GitHub_Stars](https://img.shields.io/github/stars/cachix/devenv?style=social&color=white)](https://github.com/cachix/devenv/stargazers)  
   🧪 Fast, declarative, reproducible developer environments builder powered by Nix—orchestrating packages, background services (Postgres, Redis), and process managers in `devenv.nix`.
 
-- **[Eclipse Che](https://github.com/eclipse-che/che)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-che/che?style=social&color=white)](https://github.com/eclipse-che/che/stargazers)  
+- **[Eclipse Che](https://github.com/eclipse-che/che)** [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-che/che?style=social&color=white)](https://github.com/eclipse-che/che/stargazers)  
   ☁️ Kubernetes-native cloud development workspace platform providing multi-tenant `devfile.yaml` workspace management, in-browser IDEs, and enterprise SSO integration.
 
-- **[OpenVSCode Server](https://github.com/gitpod-io/openvscode-server)** [![GitHub stars](https://img.shields.io/github/stars/gitpod-io/openvscode-server?style=social&color=white)](https://github.com/gitpod-io/openvscode-server/stargazers)  
+- **[OpenVSCode Server](https://github.com/gitpod-io/openvscode-server)** [![GitHub_Stars](https://img.shields.io/github/stars/gitpod-io/openvscode-server?style=social&color=white)](https://github.com/gitpod-io/openvscode-server/stargazers)  
   💻 Upstream distribution maintained by Gitpod that runs the upstream Microsoft VS Code web client directly on a remote server accessible through any standard web browser.
 
-- **[Dev Containers Specification](https://github.com/devcontainers/spec)** [![GitHub stars](https://img.shields.io/github/stars/devcontainers/spec?style=social&color=white)](https://github.com/devcontainers/spec/stargazers)  
+- **[Dev Containers Specification](https://github.com/devcontainers/spec)** [![GitHub_Stars](https://img.shields.io/github/stars/devcontainers/spec?style=social&color=white)](https://github.com/devcontainers/spec/stargazers)  
   📋 The open specification and schema behind `devcontainer.json`, standardizing how development containers, features, port forwardings, and lifecycle hooks are declared.
 
-- **[VS Code Dev Containers Templates](https://github.com/microsoft/vscode-dev-containers)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/vscode-dev-containers?style=social&color=white)](https://github.com/microsoft/vscode-dev-containers/stargazers)  
+- **[VS Code Dev Containers Templates](https://github.com/microsoft/vscode-dev-containers)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/vscode-dev-containers?style=social&color=white)](https://github.com/microsoft/vscode-dev-containers/stargazers)  
   📐 Microsoft repository of reference community templates, Dockerfiles, and DevContainer configuration definitions for common stacks and languages.
 
-- **[Flox](https://github.com/flox/flox)** [![GitHub stars](https://img.shields.io/github/stars/flox/flox?style=social&color=white)](https://github.com/flox/flox/stargazers)  
+- **[Flox](https://github.com/flox/flox)** [![GitHub_Stars](https://img.shields.io/github/stars/flox/flox?style=social&color=white)](https://github.com/flox/flox/stargazers)  
   🔄 Cross-platform developer environment framework based on Nix that provides portable, reproducible environments that follow your code across local machines, CI, and production.
 
-- **[Dev Containers CLI](https://github.com/devcontainers/cli)** [![GitHub stars](https://img.shields.io/github/stars/devcontainers/cli?style=social&color=white)](https://github.com/devcontainers/cli/stargazers)  
+- **[Dev Containers CLI](https://github.com/devcontainers/cli)** [![GitHub_Stars](https://img.shields.io/github/stars/devcontainers/cli?style=social&color=white)](https://github.com/devcontainers/cli/stargazers)  
   ⌨️ Reference command-line interface implementation for parsing, building, and executing workspaces defined by `devcontainer.json`.
 
-- **[fzn0x/idx](https://github.com/fzn0x/idx)** [![GitHub stars](https://img.shields.io/github/stars/fzn0x/idx?style=social&color=white)](https://github.com/fzn0x/idx/stargazers)  
+- **[fzn0x/idx](https://github.com/fzn0x/idx)** [![GitHub_Stars](https://img.shields.io/github/stars/fzn0x/idx?style=social&color=white)](https://github.com/fzn0x/idx/stargazers)  
   🔮 Open-source configuration toolkit and Nix templates inspired by Project IDX, engineered to bootstrap reproducible cloud workspace setups and developer tooling.
 
 **Frameworks for building custom systems**: Combine **Dev Containers (`devcontainer.json`) + DevPod** or **Coder** for self-hosted cloud workspaces, **devenv** or **Devbox + direnv** for zero-drift Nix developer environments, and **OpenVSCode Server** or **Code-Server** for browser-based IDE access.
